@@ -329,6 +329,12 @@ and flipped:
 |1|0.705|1.189|0.407|2.276|2.419|
 |2|1.913|1.700|2.015|0.072|0.191|
 
+$$
+\[ \left( \begin{array}{ccc}
+a & b & c \\
+d & e & f \\
+g & h & i \end{array} \right)\] 
+$$
 
 This flipping of the table (or matrix) is called transposing the matrix.  If the original matrix is called *Q* the transpose of the matrix is indicated by $Q^T.$ 
 So now when you see $Q^T$ you don't need to freak out. Just think, oh, I just flip the matrix so rows become columns.  Cool. And our estimate of the ratings equals:
@@ -348,6 +354,7 @@ $$\hat{R} =\begin{bmatrix}
 0.705 & 1.189 & 0.407 & 2.276 & 2.419  \\
 1.913 & 1.700 & 2.015 & 0.072 & 0.191
 \end{bmatrix} $$
+
 and when we do this multiplication we will get the filled in version of our estimated ratings table:
 
 
